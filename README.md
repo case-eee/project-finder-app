@@ -1,20 +1,20 @@
 ### Basic Overview of Application
-A user can create many projects.
-A project can have many users working on it
-A user can work on many projects
-A user and project are connected through a 'committment'
-A user can comment on many projects.
-A project has many comments.
+- A user can create many projects.
+- A project can have many users working on it
+- A user can work on many projects
+- A user and project are connected through a 'committment'
+- A user can comment on many projects.
+- A project has many comments.
 
 ### Methods we want access to (by creating associations):
-project.creator
-project.collaborators
-project.comments
-user.collaborations
-user.comments
-user.created_projects
-comment.author
-comment.project
+- `project.creator`
+- `project.collaborators`
+- `project.comments`
+- `user.collaborations`
+- `user.comments`
+- `user.created_projects`
+- `comment.author`
+- `comment.project`
 
 ### Create User Authentication & Validations
 be sure to implement user authentication using BCrypt
